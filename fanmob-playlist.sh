@@ -19,8 +19,8 @@ for i in *.mp3;
     id: '${name}',
     title: '${title}',
     artist: '${artist}',
-    thumbnail: '${image}',
-    source: '${video}',
+    thumbnail: 'https://s3.amazonaws.com/fanmob-media/${image}',
+    source: 'https://s3.amazonaws.com/fanmob-media/${video}',
   },
 EOL
 done
